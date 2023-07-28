@@ -10,8 +10,8 @@ patches:
   target:
     group: apps
     kind: Deployment
-    name: test
+    name: another
     version: v1
 images:
-- name: busybox
+- name: quay.io/rhdevelopers/bgd
   newTag: latest
